@@ -6,34 +6,19 @@ a:visited{
     text-decoration: none;
     color: black;
 }
-#nev,#suli{
-    text-align: center;
-}
 #gomb{
-    display: block;
-    margin: auto;
     height: 45px;
     width: 80px;
-    float: left;
     border-radius: 80px;
     cursor: pointer;
 }
 #gomb3{
-    display: block;
-    margin: auto;
     height: 45px;
-    width: 80px;
+    width: 103px;
     border-radius: 80px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
 }
-#githublogo{
-    display: block;
-    margin: auto;
-    float: right;
-}
-#gomb:hover,#gomb2:hover,#gomb3:hover{
+#gomb:hover,#gomb3:hover{
     background-color: rgb(124, 168, 206);
 }
 #tablazat table {
@@ -64,6 +49,10 @@ a:visited{
   height  : 1px;
   width   : 100%;  
   border-bottom:1px solid gray;
+}
+#flexes{
+    display: flex;
+    justify-content: space-between;
 }
 .back-video{
     position: absolute;
