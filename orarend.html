@@ -124,7 +124,9 @@
 		<button type="button" id="gomb3" style="margin: auto; display: block;" title="Kezdőlap">Kezdőlap</button>
 		</a>
 		<button type="button" onclick="matek()">Matek órák kijelölése</button>
+		<button type="button" onclick="info()">Informatika órák kijelölése</button>
 		<button type="button" onclick="vissza()">Kijelölések visszavonása</button>
+		
 	    </div>
 	<script>
 		function matek(){
@@ -132,6 +134,13 @@
 			document.getElementById("matek2").style.backgroundColor="red";
 			document.getElementById("matek3").style.backgroundColor="red";
 			document.getElementById("matek4").style.backgroundColor="red";
+		}
+		function info(){
+			document.getElementById("info1").style.backgroundColor="red";
+			document.getElementById("info2").style.backgroundColor="red";
+			document.getElementById("info3").style.backgroundColor="red";
+			document.getElementById("info4").style.backgroundColor="red";
+			
 		}
 		function vissza(){
 			document.getElementById("matek1").style.backgroundColor="#CCFFCC";
