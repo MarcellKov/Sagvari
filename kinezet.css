@@ -14,7 +14,7 @@ a:visited{
 }
 #gomb3{
     height: 45px;
-    width: 103px;
+    width: 105px;
     border-radius: 80px;
     cursor: pointer;
 }
@@ -22,8 +22,7 @@ a:visited{
     background-color: rgb(124, 168, 206);
 }
 #tablazat table {
-    border: 45px solid white;
-    border-radius: 2%;
+    border: 35px solid white;
     background-color: white;
     margin: auto;
     margin-top: 15%;
@@ -75,11 +74,8 @@ a:visited{
 #lejjebb{
     margin-top: 6%;
 }
-#tablazat2 table {
-    border: 45px solid white;
-    border-radius: 2%;
-    background-color: white;
-    margin: auto;
-    margin-top: 15%;
+.row{
+    display: flex;
+    justify-content: center;
     
 }
