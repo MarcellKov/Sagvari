@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -10,10 +6,15 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="kinezet.css">
 		<link rel="icon" type="image/x-icon" href="sg.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="javascript.js"></script>
 	</head>
 
 
 	<body style="background-color: aqua;">
+		<div class="animacio">
+			<span class="forgas"><span class="kitoltes"></span></span>
+		</div>
 	
 		
 		<table width="966" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff">
@@ -131,9 +132,11 @@
 		<button type="button" onclick="ofo()" id="gomb3">Osztályfőnöki órák kijelölése</button>
 		<button type="button" onclick="vissza()" id="gomb3">Kijelölések visszavonása</button></div>
 	    
-	    <script src="javascript.js">
-	   </script> 
+	    <script>
+			$("document").ready(function(){
+        $(".animacio").fadeOut("slow");})
+	   </script>
+	    
   
 	</body>
 </html>
-

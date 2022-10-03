@@ -79,3 +79,49 @@ a:visited{
     justify-content: center;
     
 }
+.animacio{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   background-color: black;
+}
+.forgas{
+    height: 45px;
+    vertical-align: top;
+    width: 45px;
+    display: inline-block; 
+    top: 50%;
+    border: 4px solid white;
+    animation: forgas 2s  infinite ease;
+}
+
+.kitoltes{
+    animation: kitoltes 2s infinite ease-in;
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@keyframes forgas{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(180deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes kitoltes {
+    0%{height: 0%;}
+    25%{height: 0%;}
+    50%{height: 100%;}
+    75%{height: 100%;}
+    100%{height: 0%;}
+    
+}
