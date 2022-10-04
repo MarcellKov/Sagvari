@@ -78,7 +78,6 @@ a:visited{
 .row{
     display: flex;
     justify-content: space-evenly;
-    
 }
 .animacio{
     width: 100%;
