@@ -77,7 +77,7 @@ a:visited{
 }
 .row{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
 .animacio{
@@ -111,11 +111,7 @@ a:visited{
 .valtakozo{
     animation: valtakozo infinite 25s ease-in-out;
     background-size: cover;
-    background-image: url('hatter.jpg');
-    
 }
-
-
 @keyframes forgas{
     0%{transform: rotate(0deg);}
     25%{transform: rotate(180deg);}
@@ -138,5 +134,4 @@ a:visited{
     50%{background-image: url('hatter.jpg');}
     75%{background-image: url('hatter.jpg');}
     100%{background-image: url('wp6940885.jpg');}
-    
 }
