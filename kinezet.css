@@ -108,6 +108,12 @@ a:visited{
     display: inline-block;
     vertical-align: top;
 }
+.valtakozo{
+    animation: valtakozo infinite 25s ease-in-out;
+    background-size: cover;
+    background-image: url('hatter.jpg');
+    
+}
 
 
 @keyframes forgas{
@@ -124,5 +130,13 @@ a:visited{
     50%{height: 100%;}
     75%{height: 100%;}
     100%{height: 0%;}
+    
+}
+@keyframes valtakozo {
+    0%{background-image: url('wallpaper-1920x1080-1.jpg');}
+    25%{background-image: url('wallpaper-1920x1080-1.jpg');}
+    50%{background-image: url('hatter.jpg');}
+    75%{background-image: url('hatter.jpg');}
+    100%{background-image: url('wp6940885.jpg');}
     
 }
