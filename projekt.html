@@ -15,7 +15,27 @@
     <div class="animacio">
         <span class="forgas"><span class="kitoltes"></span></span>
     </div>
-<div class="container-sm">
+<div class="navig">
+<nav class="navbar navbar-expand-sm bg-light">
+
+ <div class="container-fluid">
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </div>
+      
+</nav>
+</div>    
+<div class="container-sm" style="margin-top: 40px;">
 <div class="row">
 <div class="card" style="height: 350px; width:350px;">
     <img  class="card-image-top" src="wp8984777.jpg" width="100%" >
@@ -43,9 +63,11 @@
 
 
 <script>$("document").ready(function(){
+$(".navig").hide();
  $(".card").hide();
  $(".animacio").delay(2000).fadeOut("slow");
  $(".card").delay(2110).fadeIn("slow"); 
+ $(".navig").delay(2110).fadeIn("slow"); 
  });</script>
 </body>
 </html>
